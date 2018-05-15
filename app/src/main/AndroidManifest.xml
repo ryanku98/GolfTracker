@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ryanpx2016.golftracker" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegularScorePageActivity"
+            android:label="@string/title_activity_regular_score_page"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="ryanpx2016.golftracker.RegularScorePageActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyGolfCoursesActivity"
+            android:label="@string/title_activity_my_golf_courses"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="ryanpx2016.golftracker.MyGolfCoursesActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddCourseActivity"
+            android:label="@string/title_activity_add_course"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="ryanpx2016.golftracker.AddCourseActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewCourseNameActivity"
+            android:label="@string/title_activity_new_course_name"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="ryanpx2016.golftracker.NewCourseNameActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ResultsPageActivity"
+            android:label="@string/title_activity_results_page"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="ryanpx2016.golftracker.ResultsPageActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UniqueScorePageActivity"
+            android:label="@string/title_activity_unique_score_page"
+            android:theme="@style/AppTheme" >
+        </activity>
+    </application>
+
+</manifest>

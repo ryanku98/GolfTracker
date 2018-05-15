@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_regular_score_page"
+    tools:context="ryanpx2016.golftracker.RegularScorePageActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleScrollView" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                android:text="@string/hole_number_title"
+                android:textColor="#43BF43"
+                android:id="@+id/holeNumber"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                android:text="@string/par_number_title"
+                android:textColor="#E6E600"
+                android:id="@+id/parNumber"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/holeNumber"
+                android:layout_marginStart="30dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                android:text="@string/stroke_number_title"
+                android:textColor="#FF0000"
+                android:id="@+id/strokeNumber"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/parNumber"
+                android:layout_marginStart="30dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contentScrollView"
+        android:layout_below="@+id/titleScrollView" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="1"
+                android:id="@+id/hole1"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="2"
+                android:id="@+id/hole2"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/hole1"
+                android:layout_alignStart="@+id/hole1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="3"
+                android:id="@+id/hole3"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/hole2"
+                android:layout_alignStart="@+id/hole1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="4"
+                android:id="@+id/hole4"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/hole3"
+                android:layout_alignStart="@+id/hole1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="5"
+                android:id="@+id/hole5"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/hole4"
+                android:layout_alignStart="@+id/hole1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="6"
+                android:id="@+id/hole6"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/hole5"
+                android:layout_alignStart="@+id/hole1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="7"
+                android:id="@+id/hole7"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/hole6"
+                android:layout_alignStart="@+id/hole1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="8"
+                android:id="@+id/holeEight"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/hole7"
+                android:layout_alignStart="@+id/hole1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="9"
+                android:id="@+id/hole9"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/holeEight"
+                android:layout_alignStart="@+id/hole1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/par1"
+                android:layout_alignBottom="@+id/hole1"
+                android:layout_toEndOf="@+id/hole1"
+                android:layout_marginStart="65dp" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/par2"
+                android:layout_alignBottom="@+id/hole2"
+                android:layout_alignStart="@+id/par1" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/par3"
+                android:layout_alignBottom="@+id/hole3"
+                android:layout_alignStart="@+id/par1" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/par4"
+                android:layout_alignBottom="@+id/hole4"
+                android:layout_alignStart="@+id/par1" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/par5"
+                android:layout_alignBottom="@+id/hole5"
+                android:layout_alignStart="@+id/par1" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/par6"
+                android:layout_alignBottom="@+id/hole6"
+                android:layout_alignStart="@+id/par1" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/par7"
+                android:layout_alignBottom="@+id/hole7"
+                android:layout_alignStart="@+id/par1" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/par8"
+                android:layout_alignBottom="@+id/holeEight"
+                android:layout_alignStart="@+id/par1" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/par9"
+                android:layout_alignBottom="@+id/hole9"
+                android:layout_alignStart="@+id/par1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/stroke1"
+                android:layout_alignBottom="@+id/par1"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/par1"
+                android:layout_marginStart="30dp" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/stroke2"
+                android:layout_alignBottom="@+id/par2"
+                android:layout_alignStart="@+id/stroke1" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/stroke3"
+                android:layout_alignBottom="@+id/par3"
+                android:layout_alignStart="@+id/stroke1" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/stroke4"
+                android:layout_alignBottom="@+id/par4"
+                android:layout_alignStart="@+id/stroke1" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/stroke5"
+                android:layout_alignBottom="@+id/par5"
+                android:layout_alignStart="@+id/stroke1" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/stroke6"
+                android:layout_alignBottom="@+id/par6"
+                android:layout_alignStart="@+id/stroke1" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/stroke7"
+                android:layout_alignBottom="@+id/par7"
+                android:layout_alignStart="@+id/stroke1" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/stroke8"
+                android:layout_alignBottom="@+id/par8"
+                android:layout_alignStart="@+id/stroke1" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="3"
+                android:id="@+id/stroke9"
+                android:layout_alignBottom="@+id/par9"
+                android:layout_alignStart="@+id/stroke1" />
+
+            <Button
+                android:background="@drawable/regular_buttons"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="@string/save_as_new_course_button"
+                android:id="@+id/saveAsNewCourseButton"
+                android:layout_marginTop="40dp"
+                android:layout_alignTop="@+id/hole9"
+                android:layout_below="@+id/hole9" />
+            <Button
+                android:background="@drawable/regular_buttons"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="Calculate Score"
+                android:id="@+id/calculateScoreButton"
+                android:layout_marginTop="40dp"
+                android:layout_alignTop="@+id/hole9"
+                android:layout_toEndOf="@+id/saveAsNewCourseButton" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

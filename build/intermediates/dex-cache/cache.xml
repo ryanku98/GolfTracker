@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/ryanku98/AndroidStudioProjects/GolfTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/Users/ryanku98/AndroidStudioProjects/GolfTracker/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.0_6021790684ae0c8d857342104899595a84a8c536.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ryanku98/AndroidStudioProjects/GolfTracker/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="/Users/ryanku98/AndroidStudioProjects/GolfTracker/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.1.0_b7c29dbffa1ed91c98fd9c20211bb4afeb605fd5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ryanku98/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/Users/ryanku98/AndroidStudioProjects/GolfTracker/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0_1eb8e1a384ca54c8b75de1abcb020927817ec222.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ryanku98/AndroidStudioProjects/GolfTracker/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/Users/ryanku98/AndroidStudioProjects/GolfTracker/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0_900ceed3f68dfd25b9625cfedb93335b016d8fb8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ryanku98/AndroidStudioProjects/GolfTracker/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="/Users/ryanku98/AndroidStudioProjects/GolfTracker/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.0_f7b889e1a4d43eba318f24113ec344a8a9c0c865.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ryanku98/AndroidStudioProjects/GolfTracker/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Users/ryanku98/AndroidStudioProjects/GolfTracker/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.0_95215ac2c2a71448666e53b76fd57336725062e3.jar" />
+    </item>
+
+</items>
